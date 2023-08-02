@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Login = (props) =>{
   return(<Container>
-    <CTALogoTwo src = '/images/image (1).png' />
+   // <CTALogoTwo src = '/images/image (1).png' />
     <Content>
         <CTA>
             <CTALogoOne src='/images/logo.png' />
@@ -41,14 +41,14 @@ const Content = styled.div`
     margin-right: 200px;
 
 `
-const CTALogoTwo  = styled.img`
+/*const CTALogoTwo  = styled.img`
 display: flex;
 align-items: center;
 width: 381px;
 height: 650px;
 justify-content: left;
 
-`
+` */
 const CTA = styled.div`
 margin-bottom: 2vw;
 max-width: 900px;
@@ -73,7 +73,14 @@ display: flex;
 margin-left: 90px;
 align-items: center;
 justify-content: center;
+@media (max-width: 768px){
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  width:400px;
+  height: 150px;
 
+ }
 
 
 `
@@ -100,6 +107,11 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.5px;
 margin-top: 10px;
+@media (max-width: 768px){
+  width: 400px;
+  height: 40px;
+
+ }
 
 `
 
