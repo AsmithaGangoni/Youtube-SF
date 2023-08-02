@@ -67,9 +67,7 @@ const Header = (props) => {
       ) : (
         <>
         <Container>
-        <CTALogoOne src='/images/image 2775.png' />
-            <RedLine></RedLine>
-            <Text>SHORT FILMS</Text>
+        <CTALogoOne src='/images/logo.png' />
          
           </Container>
           <SignOut>
@@ -112,26 +110,19 @@ padding: 1px;
 `
 const CTALogoOne = styled.img`
 
-width: 131.246px;
-height: 42.408px;
+width: 250px;
+height: 70px;
 flex-shrink: 0;
 background: lightgray -24.86px -27.053px / 140.638% 244.828% no-repeat;
 margin-bottom: 8px;
 
 
 
+
 `
 
 
-const RedLine = styled.div`
-width: 1.738px;
-height: 44px;
-background: #E60000;
-margin-left: 10px;
-margin-right: 10px;
-margin-bottom: 5px;
-margin-top: 2px;
-`
+
 const Container = styled.div`
 align-items: center;
   display: flex;
@@ -141,25 +132,11 @@ align-items: center;
 
   position: relative;
   margin-right: auto;
-  margin-left: 0px;
+  margin-left: -10px;
 
 `
 
-const Text = styled.div`
-color: #FFF;
-text-align: center;
-font-family: Manrope;
-font-size: 19.592px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 2px;
-text-transform: uppercase;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 4.px;
-`
+
 
 
 
