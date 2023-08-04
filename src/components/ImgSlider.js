@@ -17,25 +17,25 @@ function ImgSlider() {
   return (
     <Carousel {...settings}>
        <Wrap>
-        <a>
+       <a href = "https://youtu.be/Ff82XtV78xo">
           <img src="/images/image slider.png" alt="" />
         </a>
       </Wrap>
 
       <Wrap>
-        <a>
+       <a href = "https://youtu.be/7DmLkugdh9s">
           <img src="/images/image slider (1).png" alt="" />
         </a>
       </Wrap>
 
       <Wrap>
-        <a>
+        <a href = "https://youtu.be/1P3ZgLOy-w8">
           <img src="/images/hope.png" alt="" />
         </a>
       </Wrap>
 
       <Wrap>
-        <a>
+        <a href = "https://youtu.be/kNw8V_Fkw28">
           <img src="/images/image slider (2).png" alt="" />
         </a>
       </Wrap>
